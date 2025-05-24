@@ -164,3 +164,55 @@ public class Main {
         input.close();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ✈️ Uçak Bilet Rezervasyon Konsol Uygulaması (Java)
+
+Bu proje, Java programlama dili ile Nesneye Dayalı Programlama (OOP) prensiplerine uygun olarak geliştirilmiş bir uçak bilet rezervasyon sistemidir. Konsol tabanlı bu uygulama sayesinde kullanıcılar uçuş bilgilerini görebilir ve koltuk kapasitesi uygun olduğu sürece rezervasyon yapabilir.
+
+## 📦 İçerik
+
+- Uçak Bilgileri (`Aircraft`)
+- Lokasyon Bilgileri (`Location`)
+- Uçuş Bilgileri (`Flight`)
+- Rezervasyon İşlemleri (`Reservation`)
+- JSON formatında veri kaydı (`DataManager`)
+
+## 🛠️ Özellikler
+
+- Konsoldan kullanıcı etkileşimi
+- Uçuş detaylarının görüntülenmesi
+- Koltuk kapasitesi kontrolü
+- Başarılı rezervasyon sonrası verilerin `reservations.json` dosyasına kaydedilmesi
+
+## 🔧 Gereksinimler
+
+- Java 8 veya üzeri
+- [Gson Kütüphanesi](https://mvnrepository.com/artifact/com.google.code.gson/gson)
+
+Gson `.jar` dosyasını indirip projenize ekleyin veya Maven kullanıyorsanız `pom.xml` dosyasına şu satırı ekleyin:
+
+```xml
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.10.1</version>
+</dependency>
